@@ -1,11 +1,6 @@
 #ifndef MVALIB_H
 #define MVALIB_H
 
-//NOTES FOR DAN!!!!!!!
-//You'll need to change the path of the included files to wherever you store them
-//There is an included file at the bottom of each .h file (this isn't proper practice but it works in ROOT)
-//NOTES FOR DAN!!!!!!!
-
 #include <cstdlib>
 #include <vector>
 #include <iostream>
@@ -65,12 +60,5 @@ namespace TMVAtrees{
                       TString wfilename = "bfe.root", TString nfilename  = "/home/henry/Project/rootcode/TMVA/rootoutput/DataWithPT_MVAResponse.root");
 
 }
-
-
-
-//Libs found on phunch storage area "/storage/epp2/phunch/src/"
-//Can use the above as the path^
-// #include "/home/henry/Project/TMVA/src/mvalib.C"
-#include "/storage/epp2/phunch/src/mvalib.C"
 
 #endif
