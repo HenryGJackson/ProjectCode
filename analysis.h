@@ -1,10 +1,6 @@
-#ifndef CUTLIB_H
-#define CUTLIB_H
+#ifndef ANALYSIS_H
+#define ANALYSIS_H
 
-//NOTES FOR DAN!!!!!!!
-//You'll need to change the path of the included files to wherever you store them
-//There is an included file at the bottom of each .h file (this isn't proper practice but it works in ROOT)
-//NOTES FOR DAN!!!!!!!
 #include <iostream>
 #include <cstdlib>
 #include <iomanip>
@@ -108,10 +104,5 @@ namespace punzi{
 	void GetAllPunzi(TString mvafilename = "RootFiles/TMVA.root",
                         TString bkgfilename = "BMassCut.root", TString bkgtreename = "BkgTree");
 }
-
-//Libs found on phunch storage area "/storage/epp2/phunch/src/"
-//Can use the above as the path^
-// #include "/home/henry/Project/TMVA/src/analysis.C"
-#include "/storage/epp2/phunch/src/analysis.C"
 
 #endif
