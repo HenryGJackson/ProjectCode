@@ -98,8 +98,4 @@ namespace load{
 	TTree* tree(TString filename, TString treename);
 }
 
-//Libs found on phunch storage area "/storage/epp2/phunch/src/"
-//Can use the above as the path^
-// #include "/home/henry/Project/TMVA/src/general.C"
-#include "/storage/epp2/phunch/src/general.C"
 #endif
